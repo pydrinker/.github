@@ -41,7 +41,7 @@ pip install pydrinker[gcp]
 
 3. Create a topic and a subscription to make consumer consume this message, you can see [more here](https://cloud.google.com/pubsub/docs/publisher). 
 
-4. Download the file [one_file_gcp_consumer.py](https://raw.githubusercontent.com/pydrinker/pydrinker/main/samples/one_file_gcp_consumer.py) to your path, activate your venv (if necessary) and run like below:
+4. Download the file [one_file_gcp_consumer.py](https://raw.githubusercontent.com/pydrinker/.github/main/samples/one_file_gcp_consumer.py) to your path, activate your venv (if necessary) and run like below:
 ```
 GOOGLE_APPLICATION_CREDENTIALS="credential.json" python one_file_gcp_consumer.py
 ```
